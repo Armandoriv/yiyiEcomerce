@@ -4,11 +4,11 @@ import {getFirestore, collection, addDoc, getDocs, getDoc, doc, updateDoc, delet
 
 const firebaseConfig = {
     apiKey: process.env.API_KEY,
-    authDomain: "ecomerce-coderhouse-b7825.firebaseapp.com",
-    projectId: "ecomerce-coderhouse-b7825",
-    storageBucket: "ecomerce-coderhouse-b7825.appspot.com",
-    messagingSenderId: "472509757410",
-    appId: "1:472509757410:web:8a92505237be6860452bbb"
+    authDomain: "react-coderhouse-f9aa5.firebaseapp.com",
+    projectId: "react-coderhouse-f9aa5",
+    storageBucket: "react-coderhouse-f9aa5.appspot.com",
+    messagingSenderId: "808672624909",
+    appId: "1:808672624909:web:588dc60c86b50a8be5f044"
   };
 
 const app = initializeApp(firebaseConfig);
@@ -22,7 +22,6 @@ const cargarBDD = async () => {
         await addDoc(collection(db, "productos"), {
             nombre: prod.nombre,
             marca: prod.marca,
-            modelo: prod.modelo,
             idCategoria: prod.idCategoria,
             stock: prod.stock,
             precio: prod.precio,

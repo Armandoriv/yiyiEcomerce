@@ -8,7 +8,7 @@ const Navbar = React.memo(() => {
         
       <nav className="navbar fixed-top navbar-expand-lg bro mb-5">
       <div className="container-fluid">
-        <Link to="/"><img src="./img/montañalogo.png" alt="" className='logo'/></Link>
+        <Link to="/"><img src="./img/logocava.png" alt="" className='logo'/></Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon" />
         </button>

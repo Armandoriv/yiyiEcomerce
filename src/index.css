@@ -1,5 +1,5 @@
 body{
-    background-image: url(../public/img/montañaback.jpg);
+    background-image: url(../public/img/fondoP1.jpg);
     transition: all ease 2s;
 }
 body::-webkit-scrollbar {
@@ -7,7 +7,7 @@ body::-webkit-scrollbar {
     background: #343f4f;
 }
 body::-webkit-scrollbar-thumb {
-    background: #7bb174;
+    background: #1d3557;
     border-radius: 5px;
 }
 .App{

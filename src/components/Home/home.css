@@ -20,12 +20,12 @@
 .btn {
     transition: box-shadow .3s;
     margin-top: 10px;
-    background-color:#31572c;
+    background-color:#71aaca;
     color: white;
 }
 .btn:hover{
     box-shadow: 0 0 11px rgba(33,33,33,.2);
-    background-color: #31572c;
+    background-color: #e63946;
     color: white;
 }
 .mont{

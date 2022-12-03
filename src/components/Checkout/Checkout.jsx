@@ -3,6 +3,7 @@ import { useNavigate, Link } from "react-router-dom";
 import { createOrdenCompra, getProducto, updateProducto } from "../../assets/firebase"
 import { CartContext } from "../../context/CartContext"
 import {toast } from 'react-toastify';
+import './checkout.css' ;
 
 const Checkout = () => {
     const datosFormulario = React.useRef()
@@ -36,7 +37,7 @@ const Checkout = () => {
     }
 
     return (
-        <div className="container">
+        <div className="container formulario">
             <form onSubmit={consultarFormulario} ref={datosFormulario}>
                 <div className="mb-3">
                     <label htmlFor="nombre" className="form-label">Nombre</label>
@@ -62,11 +63,9 @@ const Checkout = () => {
                     <label htmlFor="direccion" className="form-label">Dirección</label>
                     <input type="text" className="form-control" name="direccion" />
                 </div>
-                   
-                        <button type="submit" className="btn btn-primary">Finalizar Compra</button>
-                    
-                    
-        
+                <div className="boton">
+                    <button type="submit" className="btn btn-primary">Finalizar Compra</button>
+                </div>
             </form>
 
         </div>

@@ -1,0 +1,22 @@
+.cart {
+    align-items: center;
+    margin-top: 100px;
+    padding-left: 30%;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.cartbtn {
+   align-items: center;
+   padding-left: 10%;
+}
+
+.total {
+   color: white;
+    font-size: 30px;
+    padding-left: 10%;
+}
+.btnn{
+    margin-left: 5px;
+    margin-right: 5px;
+}
